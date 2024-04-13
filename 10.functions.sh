@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
-AKHLI(){
+AKHLI() {
 if [ $1 -ne 0 ]
 then
     echo "ERROR : $2.....failed"
@@ -19,7 +19,7 @@ fi
 
 yum install mariadb -y
 
-AKHIL $? "Installing mariadb
+AKHIL $? "Installing mariadb"
 
 yum install git -y
 
