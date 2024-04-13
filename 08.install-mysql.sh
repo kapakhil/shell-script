@@ -6,7 +6,7 @@ then
     echo "ERROR :- pls run with root user"
 else 
     echo "you are root user "
-    yum install mysql-server -y
+    yum install git -y
 fi 
 
 
