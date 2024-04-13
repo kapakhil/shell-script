@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=(id -u)
+ID=$(id -u)
 AKHLI(){
 if [ $1 -ne 0 ]
 then
