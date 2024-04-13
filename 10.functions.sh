@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
-AKHLI() {
+VALIDATE() {
 if [ $1 -ne 0 ]
 then
     echo "ERROR : $2.....failed"
@@ -19,8 +19,8 @@ fi
 
 yum install mariadb -y
 
-AKHIL $? "Installing mariadb"
+VALIDATE $? "Installing mariadb"
 
 yum install git -y
 
-AKHIL $? "installing Git"
+VALIDATE $? "installing Git"
