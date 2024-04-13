@@ -9,4 +9,4 @@ echo "enter your password :-"
 read -s PASSWORD
 
 echo "printing username and password just for reference"
-echo "Your username is:- $USERNAME and your password is:- $PASSWORD"
+echo "Your username is:- $USERNAME and your password is:- $PASSWORD"    
