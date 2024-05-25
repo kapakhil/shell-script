@@ -15,7 +15,7 @@ VALIDATE(){
    fi 
 }
 
-if [ $ID - ne 0 ]
+if [ $ID -ne 0 ]
  then 
   echo "$R ERROR ::- get the sudo access and run script $N"
 else 
