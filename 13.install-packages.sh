@@ -34,3 +34,8 @@ for package in $@
     fi        
  done
 
+ if ( $akhil - ne 0)
+ do 
+    echo "akhil"
+ done
+
