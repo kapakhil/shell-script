@@ -33,9 +33,3 @@ for package in $@
         echo "$package is already installed...$Y SKIPPING $N "
     fi        
  done
-
- if ( $akhil - ne 0)
- do 
-    echo "akhil"
- done
-
